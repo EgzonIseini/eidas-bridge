@@ -18,6 +18,11 @@ RUN apt-get update -y && \
 	python3 \
 	python3-pip \
 	python3-setuptools \
+	python3-dev \
+	cargo \
+	libssl-dev \
+	libxml2-dev \
+	libxslt-dev \
     openssl ca-certificates python-openssl && \
 	rm -rf /var/lib/apt/lists/*
 
