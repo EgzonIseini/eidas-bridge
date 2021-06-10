@@ -4,7 +4,8 @@
 import json, threading
 from flask import Flask, request
 from flask_cors import CORS
-from flask_restplus import Resource, Api, fields, abort
+# from flask-restx import Resource, Api, fields, abort
+from flask_restx import Api,  Resource, Api, fields, abort
 from demo.util.hub_server import start_hub_server
 from eidas_bridge.eidas_bridge import eidas_get_service_endpoint, \
     eidas_sign_credential, eidas_verify_credential, EIDASNotSupportedException, \

@@ -1,4 +1,4 @@
 requests
 flask
-flask-restplus
+flask-restx
 flask-cors
